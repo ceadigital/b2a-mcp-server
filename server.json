@@ -1,0 +1,66 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.ceadigital/b2a-fulfillment-factory",
+  "title": "CEA Digital B2A Institutional MCP Server & x402 Gateway",
+  "description": "Sub-ms MCP Server & x402 Gateway for SEC EDGAR, crt.sh, EPSS, GLEIF, CFPB, FDIC, NPI, USGS & GCP.",
+  "websiteUrl": "https://ceadigital.io",
+  "repository": {
+    "url": "https://github.com/ceadigital/b2a-mcp-server",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/crtsh"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/epss"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/sec-edgar"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/gleif"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/cfpb"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/usaspending"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/fdic"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/gcp-catalog"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/dexscreener"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/npi"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/openalex"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ceadigital.io/mcp/usgs"
+    }
+  ]
+}

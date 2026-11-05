@@ -1,0 +1,43 @@
+{
+  "name": "ceadigital-b2a-mcp",
+  "version": "1.0.0",
+  "description": "Sub-millisecond Institutional MCP Server & x402 V2 API Gateway (SEC EDGAR, crt.sh SSL Recon, FIRST.org EPSS, GLEIF LEI KYB, CFPB, USASpending, FDIC, NPI, USGS, OpenAlex, DexScreener, GCP Catalog)",
+  "homepage": "https://ceadigital.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceadigital/b2a-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://ceadigital.io/#message-board"
+  },
+  "license": "MIT",
+  "author": "CEA Digital <admin@ceadigital.io> (https://ceadigital.io)",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "ceadigital-b2a-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "x402",
+    "ai-agents",
+    "sec-edgar",
+    "cybersecurity",
+    "crtsh",
+    "epss",
+    "gleif",
+    "cfpb",
+    "usaspending",
+    "fdic",
+    "fintech",
+    "google-cloud"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,33 @@
+version: "1.0"
+runtime: "node"
+name: "ceadigital-b2a-mcp"
+description: "Sub-millisecond Institutional MCP Server & x402 V2 API Gateway (SEC EDGAR, crt.sh SSL Recon, FIRST.org EPSS, GLEIF LEI KYB, CFPB, USASpending, FDIC, NPI, USGS, OpenAlex, DexScreener, GCP Catalog)"
+transport: "streamable-http"
+endpoint: "https://ceadigital.io/mcp"
+homepage: "https://ceadigital.io"
+startCommand:
+  type: "http"
+  configSchema:
+    type: "object"
+    properties:
+      apiKey:
+        type: "string"
+        description: "Optional $2.00 50-Call Stripe Session Pass JWT token (https://buy.stripe.com/5kQeVd76G1ha12xd1G8N200)"
+tools:
+  - name: "gcp_catalog_search"
+    description: "Sub-millisecond FTS5 search across 17,671 Google Cloud, Vertex AI, Billing SKUs, and A2A catalog records"
+  - name: "vault_knowledge_search"
+    description: "FTS5 search across 36,628 video transcript chunks and 106,308 knowledge graph triples"
+  - name: "security_cve_audit"
+    description: "Audit package vulnerabilities and CVE advisories via OSV.dev and FIRST.org EPSS"
+  - name: "package_health_pulse"
+    description: "Parallel health pulse inspection across NPM and PyPI ecosystems"
+tags:
+  - "mcp"
+  - "x402"
+  - "sec-edgar"
+  - "crtsh"
+  - "epss"
+  - "cybersecurity"
+  - "fintech"
+  - "google-cloud"
